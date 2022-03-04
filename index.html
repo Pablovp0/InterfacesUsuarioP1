@@ -11,40 +11,49 @@
 
 <form action="" >
     
+    <!-- He usado los placeholders como traducción al español y he considerado que todos los campos 
+    menos el color favorito son obligatorios -->
     
     <p>
     <label for="username">Name:</label>
-    <input type="text" name="username" id="username" title='Introduce your name' autocomplete="name" placeholder="Nombre"/>
+    <input type="text" name="username" id="username" title='Introduce your name' 
+    autocomplete="name" placeholder="Nombre" required="required"/>
     </p>
     
     <p>
     <label for="surname">Surname:</label>
-    <input type="text" name="surname" id="surname" title='Introduce your surname' autocomplete="family-name" placeholder="Apellido"/>
+    <input type="text" name="surname" id="surname" title='Introduce your surname'
+     autocomplete="family-name" placeholder="Apellido" required="required"/>
     </p>
 
     <p>
     <label for="birth_date">Birth date:</label>
-    <input type="date" name="birth_date" id="birth_date" title='Introduce your birth date' autocomplete="bday-day"/>
+    <input type="date" name="birth_date" id="birth_date" title='Introduce your birth date'
+     autocomplete="bday-day" required="required"/>
     </p>
 
     <p>
     <label for="email">Email:</label>
-    <input type="text" name="email" id="email" title='Introduce your email' autocomplete="email" placeholder="Correo"/>
+    <input type="email" name="email" id="email" title='Introduce your email' 
+    autocomplete="email" placeholder="Correo" required="required"/>
     </p>
 
     <p>
     <label for="phone_number">Phone number:</label>
-    <input type="tel" name="phone_number" id="phone_number" title='Introduce your phone number' autocomplete="p" placeholder="Teléfono"/>
+    <input type="tel" name="phone_number" id="phone_number" title='Introduce your phone number' 
+    autocomplete="p" placeholder="Teléfono" required="required"/>
     </p>
 
     <p>
     <label for="password">Password:</label>
-    <input type="password" name="password" id="password" title='Introduce your password' autocomplete="new-password" placeholder="Contraseña"/>
+    <input type="password" name="password" id="password" title='Introduce your password' 
+    autocomplete="new-password" placeholder="Contraseña" required="required"/>
     </p>
     
     <p>
     <label for="confirm_password">Confirm password:</label>
-    <input type="password" name="confirm_password" id="confirm_password" title='Introduce your password again' autocomplete="new-password" placeholder="Confirme contraseña"/>
+    <input type="password" name="confirm_password" id="confirm_password" title='Introduce your password again' 
+    autocomplete="new-password" placeholder="Confirme contraseña" required="required"/>
     </p>
     
     <p>
